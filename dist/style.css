@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+
+nav {
+	background-color: black;
+	color: white;
+}
+h1 {
+	font-size: 3rem;
+}
+p {
+	font-size: 1.5rem;
+}
+img {
+	max-height: 500px;
+	/* max-width: 398px; */
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+}
+
+.navigationLinks {
+	margin: 0 auto;
+	list-style: none;
+	background-color: black;
+	color: white;
+	display: flex;
+}
+
+.navLink {
+	padding: 1.5rem;
+	transition: color .5s;
+	transition: background-color .5s;
+}
+
+.navLink:hover {
+	background-color: white;
+	color: black;
+}
+
+#content {
+	text-align: center;
+	padding: 3rem 0;
+}
+
+.backgroundImage {
+	height: 68vh;
+	background: url(images/home-background.jpg) no-repeat center center fixed;
+}
+
+.currentTab {
+	transition: color .3s;
+	transition: background-color .3s;
+	background-color: white;
+	color: black;
+}
+
+.menuContainer {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	justify-content: space-between;
+	align-content: center;
+}
